@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div class = "container">
+	<h1>Sign Up</h1>
+	<form>
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name" required><br>
+		<label for="username">Preferred Username:</label><br>
+		<input type="text" id="username" name="username" required><br>
+		<label for="pwd">Password:</label><br>
+		<input type="password" id="pwd" name="pwd" required><br>
+		<label for="confirm_password">Confirm Password:</label>
+		<input type="password" id="confirm_password" name="confirm_password" required><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+		<label for="address">Address:</label><br>
+		<textarea id="address" name="address" required></textarea><br>
+		<label for="interests">Interests:</label><br>
+		<textarea id="interests" name="interests" required></textarea><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	</div>
+</body>
+<style>
+	  body{
+			  background-image: url('https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Sanrio_wall.jpg/revision/latest?cb=20220218031458');
+              background-repeat: no-repeat;
+              background-position: center; 
+	      background-size: auto;	
+			  } 
+	.container {
+      max-width: 300px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 20px;
+	  background-image: url('https://p16-capcut-sign-va.ibyteimg.com/tos-alisg-v-643f9f/d849c41f135a4126bbfbe4d233a02fc8~tplv-nhvfeczskr-1:250:0.webp?lk3s=44acef4b&x-expires=1737300920&x-signature=4zpdthKMYlY8h%2BNyH6hnw1ygz%2Bw%3D');
+              background-repeat: no-repeat;
+              background-position: center; 
+	      background-size:500px;
+    }	
+	h1 {
+      text-align: center;
+      color: orange;
+      margin-bottom: 30px;
+    }
+	form {
+      display: center;
+      text-align: center;
+    }
+	label {
+	  font-weight: bold;
+    }
+	input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    textarea {
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 3px solid orange;
+      font-size: 16px;
+      background-color: black;
+      color: white;
+    }
+	input[type="submit"],
+    input[type="reset"] {
+      padding: 10px;
+      background-color: orange;
+      font-size: 18px;
+    }
+</style>
+</html>
